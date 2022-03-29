@@ -1,0 +1,489 @@
+/* My Custom CSS */
+
+body {
+    background-size: cover;
+    background-color: #81C8F8;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    /* margin-left: 10px; */
+    margin-right: auto;
+	/* padding: 20px 20px 0 20px; */
+	font-family: 'Nunito', sans-serif;
+}
+.header {
+	overflow: hidden;
+	text-align: left;
+	padding: 5px;
+  background-color: #81C8F8;
+}
+.jumbotron {
+	background-color:#A1E1FF;
+    width: 95%;
+		border-radius: 8px;
+}
+
+.mainHeaderFont {
+	font-family: 'Poiret One', cursive; 
+	font-size: 50px;
+	margin-top: -90px;
+	margin-left: 170px;
+  justify-content: center;
+	display: flex;
+}
+
+h1{
+	font-family: 'Nunito', sans-serif; 
+    color: #1B365C;
+    font-size: 20px;
+    background-color:#81C8F8;
+		margin-left: 150px;
+		display: flex;
+		margin-top: 0px;
+}
+p {
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+		margin-top: -25px;
+		overflow: hidden;
+		color: #1B365C;
+}
+p1 {
+	align-content: left;
+	line-height: 17px;
+	margin-top: 3px;
+	margin-left: 5px;
+	padding: 5px;
+	text-align: left;	
+  background-color:#81C8F8;
+}
+.h2 {
+	color: #1B365C;
+	text-align: left;
+	font-size: 20px;
+	margin: 0px 5px 5px 100px;
+	padding: 5px 51px 30px 25px;
+	height: 15px;
+	width: 100%;
+	line-height: 15px;
+  background-color:#81C8F8;
+  justify-content: center;
+	display: flex;
+}
+
+h2 {
+	font-family: 'Nunito', sans-serif;
+	text-align: left;
+	font-size: 40px;
+	animation-duration: 8s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .4) inset;
+	background: linear-gradient(to bottom, #fff 30%, #fcfcfc 40%, #f8f8f8 50%, #f0f0f0 100%);
+	border-radius: 7px;
+}
+@keyframes slidein {
+
+		0% {
+				margin-left: 0%;
+		}
+		50% {
+				margin-left: 150px;
+		}
+		100% {
+				margin-left: 0%;
+		}
+}
+
+h3{
+	color: #1B365C;
+	text-align: center;
+	font-size: 30px;
+	margin-left: 100px;
+  margin-top: 30px;
+	padding: 5px 51px 30px 25px;
+	height: 15px;
+	width: 100%;
+	line-height: 17px;
+  background-color:##81C8F8;
+}
+h4 {
+	color: #1B365C;
+	text-align: left;
+	font-size: 26px;
+	margin-top: -25px;
+	margin-left: 600px;
+	padding: 5px 51px 0px 15px;
+	height: 200px;
+	width: 600px;
+	line-height: 30x;
+  background-color:#81C8F8;
+	border: 2px solid #1B365C;
+	border-radius: 8px;
+}
+.h7 {
+	margin-left: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 8px;
+	font-size: 35px;
+}
+.h8 {
+	margin-left: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-radius: 8px;
+	font-size: 35px;
+}
+#Logo img {
+	float: center;
+	width: 120px;
+	height: 120px;
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+	padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;;
+  background-color: #81C8F8;
+}
+
+.row {
+padding: 10px;
+height: 100px;
+width: 100%;
+background-color: #81C8F8;
+}
+.headerimage {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.caption {
+		text-align: right;
+}
+.classes1 {
+	display: block;
+	margin: auto;
+	height: 100%;
+}
+
+.flex-container1> div {
+	color: #1B365C;
+	width: 100%;
+	margin: 5px;
+	text-align: right;
+	line-height: 15px;
+	font-size: 30px;
+  background-color:#81C8F8;
+}
+.flex-container2> div {
+	color: #1B365C;
+	width: 100%;
+	margin: 5px;
+	text-align: right;
+	line-height: 15px;
+	font-size: 30px;
+  background-color: #81C8F8;
+}
+.calendarClass {
+	margin-left: 60px;
+}
+
+.form-button1{
+width: 100%;
+height: 20px;
+text-align: right;
+margin-bottom: 20px;
+justify-content: right;
+}
+
+.button {
+	margin-bottom: 100px;
+}
+
+.content{
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: -10px;
+	font-size: 17px;
+}
+.topnav {
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	background-color:#81C8F8;
+	line-height: 30px;
+	margin-left: 2px;
+	border-radius: 3px 3px 3px 3px;
+	float: Center;
+}
+.topnav a {
+	display:block;
+  width: 100%;
+	font-family: Arial;
+	Color: #1B365C;
+	text-align: center;
+	padding: 5px 0px 5px 5px;
+	text-decoration: none;
+	font-size: 25px;
+	background-color: #81C8F8;
+}
+.topnav ul {
+	float: center;
+	width: 100%;
+	padding-inline-start: 0px;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+.topnav ul li {
+	float: left;
+	width: 110px;
+	list-style: none;
+	position: relative;
+	display: block;
+	margin-right: 100px;
+	margin-left: 3px;
+	
+}
+.topnav ul li ul {
+	display: none;
+	position: absolute;
+	background-color: #81C8F8;
+	padding: 10px 0px 5px 10px;
+	border-radius: 10px 10px 10px 10px;	
+	z-index: 1000;
+}
+.topnav ul li:hover ul {
+	display: block;
+	position: absolute;
+	background-color: #81C8F8;
+	padding-right: 5px;
+	padding: 2px;
+	padding-top: 0px;
+	border-radius: 3px 2px 2px 5px;
+}
+.topnav ul li ul li {
+	padding: 3px;
+	margin: 3px;
+
+}
+.topnav ul li ul li a {
+	text-align: center;
+	font-size: 20px;
+	border-radius: 3px;
+  width: 100px;
+  line-height: 20px;
+}
+.topnav ul li ul li a:hover {
+	background-color:#8FE9FF;
+  width: 100px;
+  line-height: 20px;
+}
+.clearfix::after,
+.calendar ol::after {
+	content: ".";
+	height: 0;
+	clear: both;
+	visibility:hidden;
+}
+.calendar {
+	border-radius: 40px;
+	height: 100%;
+}
+
+@media (min-width: 992px) {
+	.date {
+		font-size: 3.5rem;
+	}
+}
+.calendar ol li {
+	float: left;
+	width: 14.28571%;
+}
+.calendar .day-names {
+border-bottom: 1px solid #445DF5;
+font-size: 20px;
+}
+.calendar .day-names li {
+	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+}
+.calendar .days li {
+	border-bottom: 1px solid #BEA1E6;
+	min-height: 8rem;
+}
+.calendar .days li .date {
+	margin: 0.5rem 0;
+}
+.calendar .days li .event {
+	font-size: 0.75rem;
+	padding: 0.3rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-radius: 4rem;
+	margin-bottom: 10px;
+}
+
+.calendar .days li .event.span-2 {
+width: 200%;
+}
+.calendar .days li .event.begin {
+	border-radius: 1rem 0 0 1rem;;
+}
+.calendar .days li .event.end {
+	border-radius: 0 1rem 1rem 0;;
+}
+.calendar .days li .event.clear {
+	background: none;
+}
+.calendar .days li:nth-child(n+29) {
+	border-bottom: none;
+}
+.calendar .days li.outside .date {
+	color:#9ECBF7;
+}
+.demo:hover .event bg-info {
+	animation-name: date;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+.date {
+	border-top: 20px solid #9ECBF7;
+	height: 100px;
+	font-size: 20px;
+	padding: 5px;
+}
+.btn-lg {
+background-color: #8FE9FF;
+border: none;
+color: #1B365C;
+padding: 60px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+margin: 4px 8px;
+border-radius: 100;
+}
+
+
+
+
+/* *************************** NEW CSS BELOW ************************* */
+.msgAndPicMainDivClass {
+	width: 100%;
+	/*display: flex;
+	justify-content: space-between; */
+}
+
+.msgAndPicMainDivClass div {
+	/*flex: 1; */
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 5px;
+}
+
+.imageDivClass {
+	width: 100%;
+	height: 100%;
+	margin-left: 15px;
+	margin-left: 15px;
+	object-fit: contain;
+	display: flex;
+	justify-content: center;
+}
+
+.parentClass {
+	display: flex;
+	/* justify-content: space-evenly; */
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid #033B07;
+	border-radius: 6px;
+}
+
+.parentClass > button {
+	margin-top: 10px;
+}
+
+.Whattodo {
+	border: 2px solid #522CA8;
+	border-radius: 8px;
+}
+
+.buttonsplays {
+	border: 2px solid #522CA8;
+	border-radius: 8px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}
+
+.footer {
+	/* background-color: grey; */
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+.footer ._footer:first-child {
+	flex: 1;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.footer ._footer:nth-child(2) {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer ._footer:last-child {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.footer ._footer:last-child a {
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.customJumbotron {
+	margin: 50px;
+}
+
+.msgAndPicMainDivClass {
+	border: 2px solid #522CA8;
+}
+.mainImageDivClass {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 50px;
+}
+.mainImageDivClass .card .card-img-top {
+	width: 30rem;
+	height: 30rem;
+	object-fit: cover;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.socialMediaColor {
+	color: #522CA8;
+}
+
+
+
